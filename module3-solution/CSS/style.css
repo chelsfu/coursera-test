@@ -1,3 +1,154 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: orange;
+  border-radius: 0;
+  border: 2px solid brown;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* FOOD LLC */
+  font-family: Arial, Helvetica, sans-serif;
+  color: brown;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: .50;
+}
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1.5px solid brown;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -60px;
+}
+/* END HEADER */
+
+
+
+
+
+/* HOME PAGE */
+
+#menu-categories-title { /*OUR MENU*/
+  color:brown;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+
+div section {
+  border: 0px;
+  color:  brown;
+  background-color: lightsalmon;
+  height: 1000px;
+  width: 100%;
+  margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 10px;
+   margin-top: 30px;
+   overflow: hidden;
+}
+
+
+#chicken {
+  color: brown;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 0.3em;
+}
+
+p{
+  margin: 30px;
+  margin-top: 0px;
+  text-align: left;
+}
+
+
+/* END HOME PAGE */
+
+
+
+
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+    .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
   }
+
+  
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+
+
+  div section {
+    width: 80%;
+    margin-top: 30px;
+  }
+
+
+
+#nav-list {
+    color: brown;
+    text-align: center;
+    font-size: 1.2em;
+    padding: .2em;
+  }
+
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 5px;
+    font-size: 6vw; /* 1vw = 1% of viewport width */
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+
+
+  /* End Header */
+
+}
