@@ -139,10 +139,7 @@ p{
     padding-top: 10px;
     height: 80px;
   }
-  .navbar-brand h1 { /* Restaurant name */
-    padding-top: 5px;
-    font-size: 6vw; /* 1vw = 1% of viewport width */
-  }
+
 
   #collapsable-nav a { /* Collapsed nav menu text */
     font-size: 1.2em;
